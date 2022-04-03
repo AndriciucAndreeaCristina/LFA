@@ -110,39 +110,3 @@ for i in range(0, total_words_to_check):
             for x in path:
                 print(x[1][0], end=" ")
             print()
-
-"""
-First input file:
-4 8
-0 1 a 0
-1 1 b 1
-1 2 c 2
-1 3 a 1
-2 2 c 2
-2 3 a 1
-3 3 a 0
-3 3 c 3
-0
-1 3
-4
-cc
-abbacccc
-ac
-accccaa
-
-Second input file:
-3 7
-q0 q0 1 b
-q0 q1 0 b
-q1 q0 0 b
-q1 q1 0 b
-q1 q2 1 a
-q2 q1 0 b
-q2 q0 1 b
-q0
-2 q2 q0
-3
-10111001
-001010110100
-010010100110
-"""
